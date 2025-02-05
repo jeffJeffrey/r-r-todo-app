@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL: string = 'http://192.168.108.163:3000/api';
+const API_URL: string = 'http://localhost:3000/api';
 const GET_URL: string = `${API_URL}/todos`;
 const POST_URL: string = `${API_URL}/todos`;
 const DELETE_URL: (id: number) => string  = (id: number) => `${API_URL}/todos/${id}`;
